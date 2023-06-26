@@ -1,8 +1,36 @@
-# CryptoClustering
-Through Python and unsupervised learning, I am providing an example on my abilities to cluster information together in an attempt to have succesful predictions.
+# Crypto Market Data Analysis
 
-Find evidence of data being succesfully prepared, see how k was assigned the best value using the original scaled DataFrame. 
+This repository contains code for analyzing crypto market data using various data analysis techniques. The code uses Python and several libraries, including Pandas, hvPlot, scikit-learn, and more.
 
-I clustered Cryptocurrencies from a Csv file with K-means, used Principal Component Analysis to optimize clusters.
+## Installation
 
-The results are compared and contrasted to demonstrate difference in visualization using few features. 
+To run the code locally, you need to have Python installed on your machine. Additionally, you'll need to install the required libraries and dependencies.
+
+
+## Usage
+
+1. Clone the repository to your local machine.
+2. Navigate to the repository's directory.
+3. Ensure that the crypto market data CSV file is available in the `Resources` directory.
+4. Run the `crypto_analysis.py` file to execute the code.
+5. The output will be displayed in the console and visualized using line plots.
+
+## Data
+
+The code loads the crypto market data from a CSV file (`crypto_market_data.csv`). The data includes various price change percentages for different cryptocurrencies over different time periods.
+
+## Code Structure
+
+The code is structured into the following sections:
+
+1. Importing the required libraries and dependencies.
+2. Loading the data into a Pandas DataFrame.
+3. Displaying sample data.
+4. Generating summary statistics for the data.
+5. Plotting the data using line plots.
+6. Preparing the data by normalizing it using the `StandardScaler` module from scikit-learn.
+
+## Results
+
+The code provides various insights into the crypto market data, including summary statistics and visualizations of the price change percentages for different cryptocurrencies. Additionally, the data is preprocessed by standardizing it using the `StandardScaler` module.
+
