@@ -35,7 +35,7 @@ The code is structured into the following sections:
 The code provides various insights into the crypto market data, including summary statistics and visualizations of the price change percentages for different cryptocurrencies. Additionally, the data is preprocessed by standardizing it using the `StandardScaler` module. The visualizations are interactive, some sample visualizations of the data below. 
 
 
-![Clusters](Resources\clusters.png)
+![Clusters](Resources/clusters.png)
 ![Clusters_2](Resources\clusters_2.png)
 ![Clusters_3](Resources\clusters_3.png)
 ![Value_k](Resources\value_k.png)
