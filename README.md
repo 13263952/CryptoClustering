@@ -36,7 +36,7 @@ The code provides various insights into the crypto market data, including summar
 
 
 ![Clusters](Resources/clusters.png)
-![Clusters_2](Resources\clusters_2.png)
-![Clusters_3](Resources\clusters_3.png)
-![Value_k](Resources\value_k.png)
-![Value_k2](Resources\value_k2.png)
+![Clusters_2](Resources/clusters_2.png)
+![Clusters_3](Resources/clusters_3.png)
+![Value_k](Resources/value_k.png)
+![Value_k2](Resources/value_k2.png)
